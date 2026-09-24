@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { contactMessages } from "@/db/schema";
 
+export const dynamic = "force-dynamic";
+
 export async function POST(req: Request) {
   try {
     const { name, email, subject, message } = await req.json();

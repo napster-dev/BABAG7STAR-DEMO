@@ -1,0 +1,8 @@
+{
+  "name": "BabaG7Star",
+  "description": "Premium Electronics, Gadgets & Lifestyle E-Commerce Store",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

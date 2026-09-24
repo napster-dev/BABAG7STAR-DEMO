@@ -3,6 +3,8 @@ import { db } from "@/db";
 import { productReviews } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
 
+export const dynamic = "force-dynamic";
+
 // GET /api/reviews?slug=x — list reviews for a product
 export async function GET(req: Request) {
   try {

@@ -3,6 +3,8 @@ import { db } from "@/db";
 import { orders, orderItems } from "@/db/schema";
 import { desc, eq } from "drizzle-orm";
 
+export const dynamic = "force-dynamic";
+
 // GET /api/orders?email=x — order history for account page
 export async function GET(req: Request) {
   try {
