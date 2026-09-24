@@ -14,7 +14,6 @@ const LINKS = [
   { href: "/shop", label: "Shop" },
   { href: "/shop?cat=electronics", label: "Electronics" },
   { href: "/shop?cat=smart-gadgets", label: "Gadgets" },
-  { href: "/shop?cat=home-living", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
